@@ -1,0 +1,35 @@
+[
+  {
+    "question": "風、1、羊、世、次にくる文字は？",
+    "answers": [
+      "ダ",
+      "ス",
+      "ノ",
+      "ム"
+    ],
+    "correct": "ノ",
+    "description": "ノ（村上春樹の長編の頭文字を発表順を並べる。\n「風の歌を聴け」「1973年のピンボール」「羊をめぐる冒険」「世界の終りとハードボイルド･ワンダーランド」そして「ノルウェイの森」。）"
+  },
+  {
+    "question": "GAFAのなかで最も早く創業したのは？",
+    "answers": [
+      "Google",
+      "Amazon",
+      "Facebook",
+      "Apple"
+    ],
+    "correct": "Apple",
+    "description": "Apple（1976年4月1日創業）"
+  },
+  {
+    "question": "次のうち、売上記録がギネスブックに載っているものはどれか。",
+    "answers": [
+      "NARUTO",
+      "ONE PIECE",
+      "ドラゴンボール",
+      "SLAM DUNK"
+    ],
+    "correct": "ONE PIECE",
+    "description": "ONE PIECE（ひとりの作家によるコミックで売上世界一。）"
+  }
+]

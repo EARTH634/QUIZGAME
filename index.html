@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width" name="viewport">
+
+  <title>QUIZ</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link
+      crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      rel="stylesheet"
+  />
+
+  <!-- Optional theme -->
+  <link
+      crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      rel="stylesheet"
+  />
+
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1><span>Quiz</span></h1>
+  </header>
+
+  <hr>
+
+  <div id="quiz">
+    <div id="question">
+      <p></p>
+    </div>
+    <div id="answers">
+      <div id="answer1">
+        <button class="btn btn-lg btn-primary"></button>
+      </div>
+
+      <div id="answer2">
+        <button class="btn btn-lg btn-primary"></button>
+      </div>
+
+      <div id="answer3">
+        <button class="btn btn-lg btn-primary"></button>
+      </div>
+
+      <div id="answer4">
+        <button class="btn btn-lg btn-primary"></button>
+      </div>
+    </div>
+
+    <hr>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<!--Vue.jsのコメントアウト
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#quiz',
+    data: {
+      Answers: []
+    },
+    created: function () {
+      const self = this;
+      $.getJSON('quiz.json', function (data) {
+        self.Answers = data;
+      });
+    }
+  });
+</script>
+-->
+<script src="app.js"></script>
+</body>
+</html>
